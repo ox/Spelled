@@ -1,0 +1,3 @@
+hpricot --version '>= 0.8.2' --source gemcutter.org
+rest-open-uri
+rails --version '2.3.8'
