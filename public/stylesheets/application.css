@@ -36,11 +36,10 @@ body {
     font-size: 1.4em;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 600px;
 }
 
 input#word {
-    width: 50%;
 	border-bottom: 1px dashed #333;
 }
 
@@ -60,4 +59,24 @@ h1 {
 p {
 	padding: 0 50px 0 50px;
         line-height: 1.3em;
+}
+
+div#me {
+	position: absolute;
+	bottom:0px;
+}
+
+
+a {
+	color: #69c;
+        text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+a:active {
+	color: #369;
 }

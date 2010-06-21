@@ -10730,3 +10730,214 @@ Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:0
   [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
   [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3514) LIMIT 1[0m
 Completed in 52ms (View: 1, DB: 1) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:24:01) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3891) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 95ms (View: 54, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:24:10) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1131) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:25:20) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3322) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:25:33) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3823) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:25:40) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 106) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:26:04) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1443) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:26:13) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"angst"}
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:26:19) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2513) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:26:27) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1505) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:26:37) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2595) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:26:58) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1820) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:27:17) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2440) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:21) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:26) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles "}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:27) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:28) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscls"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:33) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles "}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:34) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:51) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:54) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"musceles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:27:55) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"muscles"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:28:00) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 62) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:03) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"academ"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:04) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"academic"}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2261) LIMIT 1[0m
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:10) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"majority"}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 277) LIMIT 1[0m
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:16) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"androgenous"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:20) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"androgenius"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing BadSpellerController#check_spelling (for 127.0.0.1 at 2010-06-21 00:28:22) [POST]
+  Parameters: {"authenticity_token"=>"uDaRxvJeYn+nJXQJ6cNs72lipuGQv6qVCtrY6M+Qf8s=", "word"=>"androgeniuos"}
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/check_spelling]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 00:28:29) [GET]
+
+ActionController::RoutingError (No route matches "/flavors.me/artemt" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  unicorn (0.991.0) lib/unicorn.rb:636:in `process_client'
+  unicorn (0.991.0) lib/unicorn.rb:709:in `block in worker_loop'
+  unicorn (0.991.0) lib/unicorn.rb:707:in `each'
+  unicorn (0.991.0) lib/unicorn.rb:707:in `worker_loop'
+  unicorn (0.991.0) lib/unicorn.rb:598:in `block (2 levels) in spawn_missing_workers'
+  unicorn (0.991.0) lib/unicorn.rb:595:in `fork'
+  unicorn (0.991.0) lib/unicorn.rb:595:in `block in spawn_missing_workers'
+  unicorn (0.991.0) lib/unicorn.rb:591:in `each'
+  unicorn (0.991.0) lib/unicorn.rb:591:in `spawn_missing_workers'
+  unicorn (0.991.0) lib/unicorn.rb:605:in `maintain_worker_count'
+  unicorn (0.991.0) lib/unicorn.rb:269:in `start'
+  unicorn (0.991.0) lib/unicorn.rb:28:in `run'
+  unicorn (0.991.0) bin/unicorn_rails:210:in `<top (required)>'
+  /Users/Artem/.rvm/gems/ruby-1.9.1-p378/bin/unicorn_rails:19:in `load'
+  /Users/Artem/.rvm/gems/ruby-1.9.1-p378/bin/unicorn_rails:19:in `<main>'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BadSpellerController#index (for 127.0.0.1 at 2010-06-21 00:28:45) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1511) LIMIT 1[0m
+Rendering template within layouts/base
+Rendering bad_speller/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/]
