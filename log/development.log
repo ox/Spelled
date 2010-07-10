@@ -11908,3 +11908,78 @@ Processing ItemsController#index (for 127.0.0.1 at 2010-07-10 02:35:34) [GET]
 Rendering template within layouts/items
 Rendering items/index
 Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-10 02:39:42) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3534) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 87ms (View: 58, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:39:47) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"spread"}}
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2153) LIMIT 1[0m
+Rendering items/create
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-10 02:40:36) [GET]
+  [4;36;1mSQL (2.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1034) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 27ms (View: 2, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:40:41) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"constitution"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3801) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:40:43) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"thinking"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:40:57) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"thickening"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:41:00) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"thickning"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-10 02:41:03) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"thickening"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "right" varchar(255), "wrong" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (2.7ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100710044943')[0m
