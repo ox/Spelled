@@ -1,0 +1,10 @@
+var num= <%=session[:red]%>;
+
+if(!num) {
+  $('#hhhh').html("<span><%= session[:wrong_word] %></span>");
+  $('#item_description').attr('value', '').focus();
+  $('#hhhh').css('color', '#333');
+} else {
+  $('#hhhh').html("<span><%= session[:wrong_word] %></span>");
+  $('#hhhh').css('color', 'red');
+}

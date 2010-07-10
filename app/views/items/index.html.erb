@@ -1,0 +1,6 @@
+<h1 id="hhhh"><%= session[:wrong_word]%></h1>
+
+<% form_for :item, :html => {'data-remote' => true} do |f| %>
+  <%= f.text_field :description%>
+  <%= f.submit "Check" %>
+<% end %>

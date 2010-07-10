@@ -5,14 +5,12 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
-
 require 'rubygems'
 require 'hpricot'
 require 'open-uri'
 
 doc = open("http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines") {|f|Hpricot(f)}
 (doc/"pre").inner_html.split("\n").each do |word|
-  tWord = word.split("-&gt;")
-  Word.create(:wrong => tWord[0], :right => tWord[1])
+  caught = word.match(/(\w+) -&gt; (\w+)/)
+  Word.create(:wrong => caught[0], :right => caught[1])
 end
-
