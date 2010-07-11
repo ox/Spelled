@@ -1,3 +1,1 @@
 rails --version='2.3.8'
-hpricot --version='0.8.2'
-rest-open-uri
