@@ -11,6 +11,8 @@ require 'open-uri'
 
 doc = open("http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines") {|f|Hpricot(f)}
 (doc/"pre").inner_html.split("\n").each do |word|
-  caught = word.match(/(\w+) -&gt; (\w+)/)
-  Word.create(:wrong => caught[0], :right => caught[1])
+  tWord = word.split("-&gt;")
+  if tWord[1] && !tWord[1][/(\w+), /] 
+    Word.create(:wrong => tWord[0], :right => tWord[1])
+  end  
 end
