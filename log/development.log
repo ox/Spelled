@@ -19981,3 +19981,1023 @@ Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
   [4;35;1mWord Create (0.3ms)[0m   [0mINSERT INTO "words" ("right", "wrong", "created_at", "updated_at") VALUES('you', 'ytou', '2010-07-11 04:05:41', '2010-07-11 04:05:41')[0m
   [4;36;1mWord Create (0.5ms)[0m   [0;1mINSERT INTO "words" ("right", "wrong", "created_at", "updated_at") VALUES('you', 'yuo', '2010-07-11 04:05:41', '2010-07-11 04:05:41')[0m
   [4;35;1mWord Create (0.3ms)[0m   [0mINSERT INTO "words" ("right", "wrong", "created_at", "updated_at") VALUES('zebra', 'zeebra', '2010-07-11 04:05:41', '2010-07-11 04:05:41')[0m
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:20) [GET]
+  [4;36;1mSQL (34.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2032) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 185ms (View: 84, DB: 35) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:24) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2445) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:24) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 34) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:25) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2123) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:25) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1113) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:26) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3180) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:27) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2846) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:27) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1878) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:29) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 552) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:29) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 319) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:30) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2077) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:31) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 777) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 49ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:32) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 826) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:33) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3402) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:34) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1525) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:34) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3651) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3673) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1573) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1023) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 544) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.4ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 504) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 15ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:35) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 672) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:36) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3796) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:36) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1343) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:36) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3815) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 15ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:36) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3863) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:36) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1443) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:37) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1443) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:37) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3525) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:38) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2782) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:38) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3248) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:39) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2436) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:39) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2449) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:39) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 810) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:40) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3697) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:41) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 496) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:41) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3954) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:41) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2874) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:41) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3879) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:42) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 515) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:42) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2434) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:42) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2555) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:42) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1714) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:43) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3622) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:43) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3123) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:43) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3173) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 48ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:44) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3355) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:48) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3518) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:49) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2724) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:49) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 574) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:50) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2199) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:50) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 746) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:50) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2979) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:51) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 971) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:52) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2005) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:52) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2635) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:53) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1383) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:53) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 557) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:53) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3799) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:54) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2410) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:55) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1330) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:56) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3022) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:58) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2132) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:58) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3628) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:38:59) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1310) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:39:00) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2382) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:39:28) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2697) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:39:41) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1559) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:39:42) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1654) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:39:50) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2228) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:38) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2181) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 49ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:38) [GET]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3058) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:39) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3387) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:39) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 910) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:40) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 739) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:40) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3894) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:42) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 920) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:48) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 301) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:40:54) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3387) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:43) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3718) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:45) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2262) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:45) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 508) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:48) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1232) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:51) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.4ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2836) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:54) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2050) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:54) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1427) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:54) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3268) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:55) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 988) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:55) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1776) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 9ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:55) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3187) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:58) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2891) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#index (for 127.0.0.1 at 2010-07-12 11:42:59) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 886) LIMIT 1[0m
+Rendering template within layouts/items
+Rendering items/index
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:03) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"concentrates"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1725) LIMIT 1[0m
+Rendering items/create
+Completed in 409ms (View: 401, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:07) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"healthy"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2216) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:10) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"military"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1058) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:14) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"definit"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:19) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"definet"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:22) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"defefin"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:25) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"defenit"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:47) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"definite"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3351) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:50) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"spread"}}
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1784) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:52) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"having"}}
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1112) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:54) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"detached"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2433) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:56) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"occured"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:53:57) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"occurred"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2898) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:00) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"persuaded"}}
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3287) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:05) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"zionist"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:23) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"Zionist"}}
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2148) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:32) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"manifestations"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3528) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:36) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"septh"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:41) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"swept"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 1572) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:43) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"dound"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:46) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"found"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2424) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:49) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"occurrance"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:51) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"occurrence"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3677) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:54:58) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"transcendent"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3441) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:55:02) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"successful"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.2ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 425) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:55:05) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"Athenians"}}
+Rendering items/create
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:55:08) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"athenians"}}
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 2391) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:55:12) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"obsession"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 3436) LIMIT 1[0m
+Rendering items/create
+Completed in 50ms (View: 42, DB: 1) | 200 OK [http://localhost/items]
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-07-12 11:55:14) [POST]
+  Parameters: {"authenticity_token"=>"k7x1Z+esDP46qGsmwRY6GAhCDtVzEQlMRGG3ybmym8I=", "item"=>{"description"=>"succession"}}
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "words" [0m
+  [4;35;1mWord Load (0.3ms)[0m   [0mSELECT * FROM "words" WHERE ("words"."id" = 145) LIMIT 1[0m
+Rendering items/create
+Completed in 9ms (View: 1, DB: 1) | 200 OK [http://localhost/items]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (24.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "right" varchar(255), "wrong" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100710044943')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "right" varchar(255), "wrong" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100710044943')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "right" varchar(255), "wrong" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100710044943')[0m
